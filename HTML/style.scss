@@ -1,0 +1,316 @@
+k;
+}
+head {
+    background-color: beige;}
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;}
+#gothboicliqueparrafo {background-color: lightgrey;
+margin: 1em;
+font-family: 'Inria Serif', serif;}
+nav {
+    font-size: larger;
+     background-color: whitesmoke;
+     display: flex;
+     flex-flow: row wrap;
+     align-items: center;
+}
+.navegador {display: inline; }
+footer{
+     background-color: whitesmoke;  
+}
+#titulobiografia{
+    font-family: 'New Rocker', cursive;
+    background-color: white;
+    text-align: center;
+}
+#biografia{
+    background-color: white;
+    margin: 1%;
+}
+#galeria{
+    object-fit: cover;
+    max-width: 1920px;
+    width: 100%;
+    max-height: 1080px;
+    height: 100%;
+}
+.menu{
+    font-family: serif;
+    list-style: none;
+    background-color:whitesmoke;
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.menu li a {
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+.menu li{
+    height: 100%;
+    display: inline-block;
+    text-align:center ;
+
+}
+.menu li a:hover{
+    background-color:lightgrey ;
+}
+.imagenesgaleria{
+    display: flex;
+    flex-flow: wrap;
+    margin: 0 auto;
+    background-color: lightgrey;
+    text-align: center;
+    align-content: stretch;
+}
+
+.imagenesgaleria li {
+    margin: 0.2%;
+    list-style: none;
+    padding: 0;    
+}
+.imagenesgaleria :hover {
+    transform: scale(1.1); 
+}
+.fotospeep{
+    transition: transform .200s;
+    object-fit: cover;
+    width: 350px;
+    height: 350px;
+
+}
+#bodygaleria{
+    background-color: lightgrey;
+}
+.titulosgaleria{
+    text-align: center;
+}
+.videosgaleria{
+    text-align: center;
+    background-color: lightgrey;
+}
+.videosgaleria li{
+    padding: 12px;
+    list-style: none;
+    display: inline;
+}
+.albums{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.albums li{
+    list-style: none;
+    padding: 12px;
+}
+.slider{
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    width: 400%;
+    display: flex;
+    padding: 0;
+    animation: cambio 20s infinite alternate;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    object-fit: cover;
+    max-width: 960px;
+    max-height: 640px;
+    width: 100%;
+    height: 100%;
+    
+}
+@keyframes cambio  {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+#gbcdiv{
+    text-align: center;
+}
+#gbcimg{
+    
+    object-fit: cover;
+    max-width: 960px;
+    max-height: 640px;
+    width: 100%;
+    height: 100%;
+    
+}
+#gothboicliquetitulo{
+    font-family: 'New Rocker', cursive;
+    text-align: center;
+    background-color: lightgrey;
+    
+}
+
+#logonav{
+    object-fit: cover;
+    max-width: 96px;
+    max-height: 54px;
+    width: 100%;
+    height: 100%;
+}
+#logomenu{
+    text-align: left;
+}
+#formulario{
+    text-align: left;
+}
+#bodymerch{
+    background-color: white;
+}
+#imagenmerch{
+    object-fit: cover;
+    max-width: 1920px;
+    max-height: 1080px;
+    width: 100%;
+    height: 100%;
+    
+}
+.productosmerch{
+text-align: center;
+display: flex;
+overflow: hidden;
+animation: cambio2 15s infinite alternate;
+}
+.productosmerch li{
+    text-decoration: none;
+    transition: transform .200s;
+    list-style: none;
+    object-fit: cover;
+    margin: 2%;
+}
+.productosmerch img{
+object-fit: cover;
+width:320px; 
+height:400px; 
+}
+.productosmerch li:hover {
+    transform: scale(1.1); 
+}
+@keyframes cambio2  {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    25% {margin-left: -25%;}
+    45% {margin-left: -25%;}
+    50% {margin-left: -50%;}
+    70% {margin-left: -50%;}
+    75% {margin-left: -75%;}
+    95% {margin-left: -75%;}
+    100% {margin-left: -100%;}
+}
+.tituloproductos{
+    text-align: center;
+}
+.formularioentero{
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: aliceblue;
+
+}
+.videospeep{
+width: 560px;
+height: 315px;
+}
+.productosmerch2{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.productosmerch2 img{
+object-fit: cover;
+width: 350px;
+height: 350px;
+}
+.productosmerch2 li{
+    transition: transform .200s;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    text-decoration: none;
+}
+.productosmerch2 li:hover {
+    transform: scale(1.1); 
+}
+@media (max-width:420px){
+    .albums{
+        display: flex;
+        flex-direction: column;
+    }
+    .albums li{
+        list-style: none;
+        padding: 12px;
+    }
+    
+    .imagenesgaleria{
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+    }
+    #galeria{
+        display: none;
+    }
+    .videospeep{
+        object-fit: cover;
+        width: 350px;
+        height: 350px;
+    }
+    .videosgaleria{
+        width: 350px; 
+        height: 350px; 
+        padding: 0;
+        margin: 0;
+    }
+    .titulosgaleria{
+        margin: 1em;
+        text-align: left;
+    }
+    #video2{
+        display: none;
+    }
+    .productosmerch{
+        display: none;
+    }
+    #imagenmerch{
+        display: none;
+    }
+    #titproducto{
+        display: none;
+    }
+    .productosmerch2{
+       text-align: left;
+       padding: 0%;
+       margin: 1em;
+    }
+    .productosmerch2 li{
+        display: flex;
+        flex-flow: column wrap;
+        text-align: center;
+        text-decoration: none;
+    }
+    .productosmerch2 img{
+        object-fit: cover;
+        width: 175px;
+        height: 175px;
+     }
+}
